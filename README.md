@@ -1,7 +1,7 @@
-# Agentic AI with LangChain
+# Agentic AI with LangChain and LangGraph
 
-This repository contains demo implementations, experiments, and important reference files for learning **Agentic AI using LangChain**.  
-It is designed as a personal learning and revision repository to understand how **LLM agents work and how to build agentic workflows** using LangChain.
+This repository contains demo implementations, experiments, and important reference files for learning **Agentic AI using LangChain and LangGraph**.  
+It serves as a **personal learning and revision repository** to understand how to build **LLM-powered agents, workflows, and autonomous systems**.
 
 ---
 
@@ -9,46 +9,49 @@ It is designed as a personal learning and revision repository to understand how 
 
 The goal of this repository is to:
 
-- Practice Agentic AI concepts
-- Build LLM-powered agents using LangChain
-- Store important code snippets for revision
-- Experiment with tools, prompts, and workflows
-- Understand structured outputs and agent behavior
+- Practice **Agentic AI concepts**
+- Build **LLM-powered agents**
+- Learn **LangChain and LangGraph frameworks**
+- Store **important code snippets for revision**
+- Experiment with **agent workflows and tool calling**
+- Understand **state management in agent systems**
 
-This repository is mainly used for **learning, experimentation, and quick revision**.
+This repository is mainly used for **learning, experimentation, and quick revision of Agentic AI concepts**.
 
 ---
 
 ## 🧠 Concepts Covered
 
-Some of the topics included in this repository:
+This repository may include implementations related to:
 
 - Agentic AI fundamentals  
 - LangChain basics  
+- LangGraph workflows  
 - LLM agents  
 - Tool calling with agents  
 - Prompt engineering  
 - Structured output using Pydantic  
+- State management in LangGraph  
+- Nodes and edges in agent workflows  
 - Multi-step reasoning agents  
-- Agent workflows  
-- API integrations  
+- Integration with APIs and external tools  
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-Agentic-AI-LangChain/
+Agentic-AI-LangChain-LangGraph/
 │
 ├── demos/
 │   ├── basic_agent.py
 │   ├── tool_calling_agent.py
-│   ├── structured_output_agent.py
-│   └── prompt_template_example.py
+│   ├── langgraph_workflow.py
+│   └── structured_output_agent.py
 │
 ├── revision_files/
 │   ├── langchain_notes.md
-│   ├── agent_architecture.md
+│   ├── langgraph_concepts.md
 │   └── prompt_engineering_notes.md
 │
 ├── important_code/
@@ -63,29 +66,30 @@ Agentic-AI-LangChain/
 
 ## ⚙️ Technologies Used
 
-- Python  
-- LangChain  
-- Large Language Models (LLMs)  
-- Pydantic  
-- API Integrations  
+- **Python**
+- **LangChain**
+- **LangGraph**
+- **Large Language Models (LLMs)**
+- **Pydantic**
+- **API integrations**
 
 ---
 
 ## 🚀 Setup Instructions
 
-### 1. Clone the repository
+### 1 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/agentic-ai-langchain.git
+git clone https://github.com/your-username/agentic-ai-langchain-langgraph.git
 ```
 
-### 2. Navigate to the project folder
+### 2 Navigate to the project directory
 
 ```bash
-cd agentic-ai-langchain
+cd agentic-ai-langchain-langgraph
 ```
 
-### 3. Install dependencies
+### 3 Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -95,28 +99,34 @@ pip install -r requirements.txt
 
 ## ▶️ Running the Code
 
-To run any demo:
+Run any demo file from the demos folder:
 
 ```bash
 python demos/basic_agent.py
 ```
 
-You can explore different implementations inside the **demos** folder.
+Example:
+
+```bash
+python demos/langgraph_workflow.py
+```
 
 ---
 
 ## 📚 Learning Strategy
 
-This repository follows a **hands-on learning approach**:
+This repository follows a **learning-by-building approach**:
 
-- Build small agentic systems
-- Experiment with prompts and tools
-- Save reusable code snippets
-- Maintain revision notes for quick review
-
----
-
+- Implement small agentic systems
+- Experiment with LangChain tools and prompts
+- Build workflow-based agents using LangGraph
+- Save useful code for revision
+- Maintain notes for quick learning
 
 ---
 
-⭐ This repository is part of my **learning journey in Agentic AI and LangChain**.
+
+
+---
+
+⭐ This repository documents my **learning journey in Agentic AI, LangChain, and LangGraph**.
