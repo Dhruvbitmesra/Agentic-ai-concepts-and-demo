@@ -116,15 +116,6 @@ This repository follows a **hands-on learning approach**:
 
 ---
 
-## 🎯 Future Improvements
-
-Planned additions include:
-
-- LangGraph agent workflows  
-- Multi-agent collaboration systems  
-- Retrieval Augmented Generation (RAG) agents  
-- Autonomous planning agents  
-- Advanced tool integrations  
 
 ---
 
